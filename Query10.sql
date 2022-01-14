@@ -10,12 +10,11 @@ select Country as name
 from suppliers
 union
 select Country as name
-from Employees
-)
+from Employees)
 select identity(int,1,1) as CountryId, Name
-into Country
+--into Country
 From tbl_intermediaire
 order by Name asc
 
-select * 
-from Country
+--select * 
+--from Country

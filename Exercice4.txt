@@ -1,0 +1,8 @@
+SELECT O.OrderID AS NuméroCommande --numéro de la commande
+		, O.ShippedDate AS DateCommande --date de la commande
+		, O.ShipName AS NomProduit --nom du produit commandé
+		, OD.Quantity AS QuantitéCommandée --quantité commandée
+FROM Orders AS O
+INNER JOIN [Order Details] AS OD
+	ON O.OrderID = OD.OrderID
+ORDER BY NuméroCommande ASC
