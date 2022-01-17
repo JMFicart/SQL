@@ -1,0 +1,8 @@
+Le nom d'un objet dans une base de données se compose de 4 éléments.
+Elément 1 : nom du moteur : TFNSJAVA08\SQLEXPRESS
+Elément 2 : nom de la base de données : Northwind
+			Par défaut, c'est la base en cours d'utilisation.
+Elément 3 : nom du schéma : (par défaut chez MS) dbo   Façon logique de regrouper les objets.
+Elément 4 : nom de l'objet : vw_ListeCommandesLivreesEnRetard
+
+Ex. TFNSJAVA08\SQLEXPRESS.Northwind.dbo.vw_ListeCommandesLivreesEnRetard
