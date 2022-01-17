@@ -6,3 +6,5 @@ Elément 3 : nom du schéma : (par défaut chez MS) dbo   Façon logique de regr
 Elément 4 : nom de l'objet : vw_ListeCommandesLivreesEnRetard
 
 Ex. TFNSJAVA08\SQLEXPRESS.Northwind.dbo.vw_ListeCommandesLivreesEnRetard
+
+
